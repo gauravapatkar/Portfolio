@@ -1,0 +1,124 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#intro {
+  height: calc(100vh-4rem);
+  width: 100vw;
+  max-width: 75rem;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.bg {
+  max-width: 45rem;
+  float: left;
+  position: relative;
+  top: -2rem;
+  left: -4rem;
+  right: 20rem;
+  margin-right: 1rem;
+  object-fit: cover;
+  height: 100vh;
+  z-index: -1;
+}
+
+.introContent {
+  position: relative;
+  left: -3rem;
+  top: -3rem;
+  font-size: 3rem;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hello {
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+.introName {
+  color: rgb(109, 175, 210);
+  font-size: 4rem;
+}
+
+.intropara {
+  font-size: 1rem;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+
+.myResume {
+  background: white;
+  margin: 1rem 0;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 2rem;
+}
+
+.myResume:hover {
+  background-color: rgb(109, 175, 210);
+  font-size: 14px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 840px) {
+  .bg {
+    left: -4vw;
+  }
+  .introContent {
+    font-size: 4vw;
+    float: right;
+    left: -8rem;
+    position: relative;
+    top: -5rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .bg {
+    left: -2rem;
+    margin-right: 9rem;
+  }
+  .introContent {
+    top: 25rem;
+    font-size: 2.5rem;
+    float: right;
+    left: 18rem;
+    position: absolute;
+  }
+  .hello {
+    font-size: 1.5rem;
+  }
+  .introName {
+    font-size: 2rem;
+  }
+  .myResume {
+    margin: 0.5rem 0;
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .bg {
+    left: 1rem;
+    margin-right: 9rem;
+  }
+  .introContent {
+    top: 25rem;
+    font-size: 2rem;
+    float: right;
+    left: 10rem;
+    position: absolute;
+  }
+}
