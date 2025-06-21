@@ -3,8 +3,24 @@ import Calculator from "../../assets/videos/CalculatorJs.mp4";
 import Netflix from "../../assets/videos/netflixCV.mp4";
 import SignIn from "../../assets/videos/SignIn.mp4";
 import Airbnb from "../../assets/videos/Airbnb.mp4";
+import QuizApp from "../../assets/videos/quize_appR.mp4";
+import DoctorBookingApp from "../../assets/videos/doctorBooR.mp4";
 
 const ProjectCradData = [
+  {
+    videosrc: DoctorBookingApp,
+    title: "Project Title :-",
+    titleName: "Doctor-Booking-App",
+    Text: "Developed a responsive online appointment booking platform using React.js, enabling users to schedule appointments with doctors seamlessly.Implemented doctor listing with dynamic filtering by specialty, allowing users to easily find and select relevant medical professionals.Integrated a date and time slot picker within a 7-day availability window using React state management and controlled components",
+    view: "https://gauravapatkar.github.io/Doctor-Booking-App/",
+  },
+  {
+    videosrc: QuizApp,
+    title: "Project Title :-",
+    titleName: "QuizApp",
+    Text: "Developed a responsive Quiz Application using HTML,CSS, and vanilla JavaScript, providing a smooth user experience across devices. Implemented dynamic question rendering and scoring logic using JavaScript, enabling real-time feedback and result calculation.Displayed detailed quiz results after submission, showing the total score,correct answers, incorrect answers.",
+    view: "https://gauravapatkar.github.io/quiz_app/",
+  },
   {
     videosrc: ToDoList,
     title: "Project Title :-",
