@@ -1,5 +1,4 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
 import "./project.css";
 const WorkCard = (props) => {
   return (
@@ -18,7 +17,7 @@ const WorkCard = (props) => {
           </span>
         </p>
         <div className="Viewbtn">
-          <a href={props.view} target="_blank">
+          <a href={props.view} target="_blank" rel="noreferrer">
             View Project
           </a>
         </div>

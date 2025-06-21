@@ -1,19 +1,11 @@
 import React, { useState } from "react";
 import "./navbar.css";
-import logo from "../../assets/logo20.png";
-// import { Link } from "react-scroll";
 import { Link } from "react-router-dom";
-// import contactImg from "../../assets/contact.png";
 import menu from "../../assets/menu.png";
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
   return (
     <nav className="navbar">
-      {/* <marquee behavior="scroll" direction="right">
-        {" "}
-        <img src={logo} alt="logo" className="logo" />
-      </marquee> */}
-
       <div className="Menu">
         <Link
           activeClass="active"

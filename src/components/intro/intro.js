@@ -22,7 +22,7 @@ const Intro = () => {
           I am MERN Stack developer looking for contrubuted to <br />
           your insituted by using my Skills.
         </p>{" "}
-        <a href={resume} download="MyExampleDoc" target="_blank">
+        <a href={resume} download="MyExampleDoc" target="_blank" rel="noreferrer">
           {" "}
           <button type="button" className="myResume">
             {" "}
