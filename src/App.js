@@ -1,8 +1,10 @@
 import Home from "./routes/Home.jsx";
 import About from "./routes/About.jsx";
-import Projects from "./routes/Pprojects.jsx";
+// import Projects from "./routes/Pprojects.jsx";
 import Contacts from "./routes/Contacts.jsx";
 import { Element } from "react-scroll";
+import Navbar from "./components/NavBar/navbar.js";
+import Pprojects from "./routes/Pprojects.jsx";
 
 // import { Routes, Route, BrowserRouter } from "react-router-dom";
 function App() {
