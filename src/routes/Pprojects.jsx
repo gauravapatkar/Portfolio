@@ -5,9 +5,9 @@ import Project from "../components/projects/project";
 const Pprojects = () => {
   return (
     <div>
-      <Navbar />
+{/*       <Navbar /> */}
       <Project />
-      <Footer />
+{/*       <Footer /> */}
     </div>
   );
 };
