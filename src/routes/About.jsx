@@ -5,9 +5,9 @@ import Skill from "./../components/skill/skill";
 const About = () => {
   return (
     <div>
-      <Navbar />
+{/*       <Navbar /> */}
       <Skill />
-      <Footer />
+{/*       <Footer /> */}
     </div>
   );
 };
