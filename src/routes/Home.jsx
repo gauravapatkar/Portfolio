@@ -5,9 +5,9 @@ import Intro from "../components/intro/intro";
 const Home = () => {
   return (
     <div>
-      <Navbar />
+{/*       <Navbar /> */}
       <Intro />
-      <Footer />
+{/*       <Footer /> */}
     </div>
   );
 };
